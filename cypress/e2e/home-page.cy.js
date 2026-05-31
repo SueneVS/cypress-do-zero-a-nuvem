@@ -36,7 +36,7 @@ describe("Central de Atendimento ao Cliente TAT", () => {
     cy.get("#firstName").type("Su");
     cy.get("#lastName").type("Souza");
     cy.get("#email").type("su@email.com");
-    cy.get("#open-text-area").type("Obrigada!");
+    cy.get("#open-text-area").type("Obrigada");
     cy.get("#phone-checkbox").check();
     cy.contains("button", "Enviar").click();
 
